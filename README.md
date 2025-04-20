@@ -37,7 +37,7 @@ watt-wise-energy-forecasting/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/watt-wise-energy-forecasting.git
+git clone https://github.com/YOartturner/watt-wise-energy-forecasting.git
 cd watt-wise-energy-forecasting
 ```
 
@@ -53,6 +53,20 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+## 📂 Dataset Access Instructions
+
+This project uses a publicly available dataset from Kaggle:
+
+**Dataset Source:** [Energy Consumption Prediction](https://www.kaggle.com/datasets/mrsimple07/energy-consumption-prediction)
+
+⚠️ **Note:** The dataset is not included in this GitHub repository to respect size limits and licensing terms.
+
+### To use the data locally:
+1. Download the dataset manually from the Kaggle link above.
+2. Create a folder named `data/` in the root of your project (if it doesn't already exist).
+3. Place the downloaded CSV file(s) inside the `data/` folder.
+
+Once you've done that, your scripts and notebooks will be able to access the data locally.
 
 ---
 
